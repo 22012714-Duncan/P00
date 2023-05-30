@@ -62,7 +62,7 @@ public class CalculatorTest {
 	}
 	@Test
 	public void testDivide() {
-		int a = 20;
+		int a = 10;
 		int b = 5;
 		int denominator = 0;
 		int remainder = a % b;
@@ -71,7 +71,7 @@ public class CalculatorTest {
 			Calculator cal = new Calculator();
 			int actual = cal.divide(a, b);
 			
-			int expected = 4;
+			int expected = 2;
 			assertEquals(actual, expected);
 		}
 	}
